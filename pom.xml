@@ -29,10 +29,15 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/job_release//</url>
+            <url>http://192.168.109.150:8081/repository/job_release//</url>
      </repository>
-    </distributionManagement>
-  <dependencies>
+     <snapshotRepositry>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.109.150:8081/repository/job_snapshot//</url>
+      </snapshotRepositry>
+  </distributionManagement>
+ <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>

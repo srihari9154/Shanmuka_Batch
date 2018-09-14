@@ -31,11 +31,11 @@
             <name>Internal Releases</name>
             <url>http://192.168.109.150:8081/repository/job_release//</url>
      </repository>
-     <snapshotRepositry>
+     <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://192.168.109.150:8081/repository/job_snapshot//</url>
-      </snapshotRepositry>
+      </snapshotRepository>
   </distributionManagement>
  <dependencies>
   	<dependency>
